@@ -1,0 +1,43 @@
+.header{
+    background-color:  #d8dbdc;    
+    padding: 10px;
+
+}
+
+body{
+    font-family: 'Amiri', serif;
+}
+
+.myImgHeader{    
+    height: 50px;
+    display: none;
+}
+ .thinkBg{
+    
+    background-image: url("https://www.icegif.com/wp-content/uploads/2022/09/icegif-980.gif");
+    
+ }
+
+@media only screen and (min-width: 578px) {
+    .cardHeight {
+        height: 330px;
+    }
+    .cardHeight2 {
+        height: 500px;
+    }
+    .myImg{
+        display: none;
+    }
+    .myImgHeader{
+        display: block;
+    }
+  }
+
+  .nonePoints{
+    list-style-type: none;
+  }
+
+  .hrHeight{
+    height: 4px;
+    background-color: #696a6a;
+  }
