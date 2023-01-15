@@ -8,24 +8,23 @@ body{
 }
 
 .landingPage{
-    background-image: url("https://i.stack.imgur.com/P8Sda.png"); 
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg"); 
     background-repeat: no-repeat;
-    background-size: 2000px 800px;    
+    background-size: cover;    
     color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     
 }
 .myImgHeader{    
     height: 50px;
     display: none;
 }
- .thinkBg{
-    
-    background-image: url("https://www.icegif.com/wp-content/uploads/2022/09/icegif-980.gif");
-    
+ .thinkBg{    
+    background-image: url("https://cdn.pixabay.com/photo/2017/07/10/23/35/globe-2491989_960_720.jpg");    
  }
-  .list-group  .list-group-item {
+  /* .list-group  .list-group-item {
     background-color:rgba(42, 46, 43, 0.201)
- }
+ } */
  a:link {
     text-decoration: none;
   }
@@ -34,7 +33,10 @@ body{
     text-decoration: none;
   }
 
-
+.TXTbG{
+  
+  background-color: #0000008c;
+}
 
 
 @media only screen and (min-width: 578px) {
@@ -49,6 +51,9 @@ body{
     }
     .myImgHeader{
         display: block;
+    }
+    .TXTbG{
+      background-color: rgb(60 58 58 / 43%);
     }
   }
 
